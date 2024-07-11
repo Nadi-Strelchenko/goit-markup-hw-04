@@ -163,7 +163,7 @@ a {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  width: 1440;
+  max-width: 1440;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -208,6 +208,7 @@ a {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order-btn:hover {

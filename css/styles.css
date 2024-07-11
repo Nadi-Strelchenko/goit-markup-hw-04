@@ -163,13 +163,15 @@ a {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  height: 600px;
   max-width: 1440;
   background-image: linear-gradient(
+      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: auto;
@@ -208,7 +210,6 @@ a {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order-btn:hover {
